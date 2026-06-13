@@ -1,0 +1,5 @@
+name: mariazarra-site
+channels:
+  - conda-forge
+dependencies:
+  - rb-jekyll=3.8.5

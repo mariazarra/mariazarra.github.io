@@ -1,0 +1,25 @@
+.DS_Store
+.conda/
+.home/
+.ghconfig/
+.tools/
+__pycache__/
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+_site/
+vendor/bundle/
+
+# Legacy files from the previous repo import. The clean Jekyll publish branch
+# uses Markdown pages, _posts, _layouts, and assets instead.
+/about.html
+/blog.html
+/css/
+/favicon*.png
+/font/
+/img/
+/index.html
+/js/
+/posts/
+/styles.css

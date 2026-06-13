@@ -1,0 +1,20 @@
+title: Maria Zarra
+description: Psychology notes on minds, behavior, emotion, and everyday patterns.
+url: "https://mariazarra.github.io"
+baseurl: ""
+lang: en
+author: Maria Zarra
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+future: true
+
+exclude:
+  - README.md
+  - environment.yml
+  - start-local.sh
+  - outputs/
+  - work/
+  - .conda/
+  - .ghconfig/
+  - .home/
+  - .tools/
