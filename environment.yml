@@ -2,4 +2,7 @@ name: mariazarra-site
 channels:
   - conda-forge
 dependencies:
-  - rb-jekyll=3.8.5
+  - ruby=3.3
+  - c-compiler
+  - cxx-compiler
+  - make

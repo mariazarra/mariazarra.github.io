@@ -16,6 +16,7 @@ From this folder:
 ```bash
 conda env create -f environment.yml
 conda activate mariazarra-site
+gem install jekyll -v 4.3.4 --no-document
 jekyll serve
 ```
 
@@ -35,6 +36,8 @@ If the named environment already exists, use:
 
 ```bash
 conda env update -f environment.yml --prune
+conda activate mariazarra-site
+gem install jekyll -v 4.3.4 --no-document
 ```
 
 ## Publish on GitHub Pages
