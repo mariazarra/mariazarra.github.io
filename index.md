@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Psychology Notes
-description: A psychology blog by Maria Zarra.
+title: Mind in Review
+description: Evidence-based psychology, made readable.
 ---
 
 <section class="home-hero">
   <p class="kicker">Maria Zarra · Psychology</p>
-  <h1>Psychology essays on the mind, behavior, and emotional life.</h1>
+  <h1>Mind in Review</h1>
   <p>
-    A clinical editorial space for accessible essays on anxiety, memory,
-    relationships, stress, mental health, and the patterns that shape how people
-    think, feel, and connect.
+    Evidence-based psychology, made readable. A blog where scientific
+    literature meets clear, thoughtful reviews on how the mind works, why we
+    behave the way we do, and what psychology can teach us about everyday life.
   </p>
   <a class="text-link" href="{{ '/blog/' | relative_url }}">Read Mind &amp; Behavior</a>
 </section>
