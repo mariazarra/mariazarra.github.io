@@ -22,6 +22,7 @@ permalink: /blog/
     <a href="{{ '/blog/' | relative_url }}">Intelligence</a>
     <a href="{{ '/blog/' | relative_url }}">Memory</a>
     <a href="{{ '/blog/' | relative_url }}">Mental Health</a>
+    <a href="{{ '/blog/' | relative_url }}">Mental Health at Work</a>
     <a href="{{ '/blog/' | relative_url }}">Mental Illness</a>
     <a href="{{ '/blog/' | relative_url }}">Mindfulness</a>
     <a href="{{ '/blog/' | relative_url }}">Neurology</a>
