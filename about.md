@@ -8,17 +8,17 @@ permalink: /about/
 <section class="page-heading">
   <h1>About</h1>
   <p>
-    Maria Zarra is a personal psychology blog for exploring how people make
-    sense of themselves, each other, and the world around them.
+    Maria Zarra is a psychology blog for thoughtful, clinically informed writing
+    about the mind, behavior, emotion, and relationships.
   </p>
 </section>
 
 <section class="content">
-  <h2>Topics</h2>
+  <h2>Editorial focus</h2>
   <ul>
-    <li>Emotion and self-understanding</li>
-    <li>Relationships and communication</li>
-    <li>Cognitive patterns and everyday behavior</li>
-    <li>Therapy concepts explained in plain language</li>
+    <li>Anxiety, stress, and emotional regulation</li>
+    <li>Behavior, cognition, memory, and attention</li>
+    <li>Mental health concepts explained in plain language</li>
+    <li>Relationships, communication, and everyday self-understanding</li>
   </ul>
 </section>

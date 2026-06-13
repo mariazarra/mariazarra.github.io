@@ -3,8 +3,16 @@ layout: default
 ---
 
 <article class="post">
-  <a class="back-link" href="{{ '/blog/' | relative_url }}">Back to blog</a>
-  <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</p>
-  <h1>{{ page.title }}</h1>
-  {{ content }}
+  <a class="back-link" href="{{ '/blog/' | relative_url }}">Back to Mind &amp; Behavior</a>
+  <header class="post-header">
+    <p class="eyebrow">{{ page.topic | default: "Psychology" }} · {{ page.date | date: "%B %-d, %Y" }}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.excerpt %}
+      <p class="dek">{{ page.excerpt | strip_html }}</p>
+    {% endif %}
+    <p class="byline">By {{ page.author | default: site.author }}</p>
+  </header>
+  <div class="post-body">
+    {{ content }}
+  </div>
 </article>

@@ -9,20 +9,30 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <nav aria-label="Main navigation">
-        <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
-        <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog/' %}aria-current="page"{% endif %}>Blog</a>
-        <a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about/' %}aria-current="page"{% endif %}>About</a>
-      </nav>
+      <div class="header-inner">
+        <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <nav aria-label="Main navigation">
+          <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
+          <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog/' %}aria-current="page"{% endif %}>Blog</a>
+          <a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about/' %}aria-current="page"{% endif %}>About</a>
+        </nav>
+      </div>
     </header>
 
     <main>
       {{ content }}
     </main>
 
-    <footer>
-      <p>Copyright {{ site.time | date: '%Y' }} {{ site.title }}. Built with Jekyll and GitHub Pages.</p>
+    <footer class="site-footer">
+      <div class="footer-callout">
+        <p class="footer-kicker">Psychology writing by {{ site.author }}</p>
+        <p>Essays on mind, behavior, emotional life, and the everyday patterns that shape how people relate to themselves and others.</p>
+      </div>
+      <div class="footer-links" aria-label="Footer navigation">
+        <a href="{{ '/blog/' | relative_url }}">Latest posts</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+      </div>
+      <p class="copyright">Copyright {{ site.time | date: '%Y' }} {{ site.title }}.</p>
     </footer>
   </body>
 </html>

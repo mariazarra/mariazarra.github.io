@@ -2,6 +2,8 @@
 layout: post
 title: Why Tiny Observations Matter
 date: 2026-06-13
+topic: Behavior
+author: Maria Zarra
 excerpt: Psychology often starts with noticing a repeated thought, a reaction, a pause, or a pattern in how we relate.
 ---
 
