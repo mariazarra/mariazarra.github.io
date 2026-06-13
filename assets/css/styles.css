@@ -210,6 +210,21 @@ h3 {
   max-width: var(--measure);
 }
 
+.about-heading {
+  align-items: end;
+  column-gap: clamp(2rem, 6vw, 5rem);
+  grid-template-columns: minmax(280px, 420px) minmax(0, var(--measure));
+}
+
+.about-heading h1 {
+  grid-column: 1;
+}
+
+.about-heading p {
+  grid-column: 2;
+  padding-bottom: 0.25rem;
+}
+
 .text-link,
 .back-link {
   color: var(--red-dark);
@@ -444,25 +459,6 @@ h3 {
 
 .about-grid .kicker {
   margin-bottom: 0.6rem;
-}
-
-.research-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.research-list li {
-  border-top: 1px solid var(--line);
-  font-family: var(--serif);
-  font-size: 1.05rem;
-  line-height: 1.52;
-  padding: 0.85rem 0;
-}
-
-.research-list strong {
-  font-family: var(--sans);
-  font-size: 0.92rem;
 }
 
 .skill-tags {

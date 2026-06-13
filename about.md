@@ -1,12 +1,11 @@
 ---
 layout: default
 title: About
-description: About Maria Zarra's academic background, research experience, and psychology expertise.
+description: Maria Zarra's academic background, research experience, and psychology expertise.
 permalink: /about/
 ---
 
-<section class="page-heading">
-  <p class="kicker">About Maria</p>
+<section class="page-heading about-heading">
   <h1>Maria Zarra</h1>
   <p>
     Maria Zarra is a psychology researcher and educator based in Amsterdam, with academic
@@ -70,23 +69,14 @@ permalink: /about/
   <article>
     <p class="kicker">Research Experience</p>
     <h2>Projects</h2>
-    <ul class="research-list">
-      <li>
-        <strong>Prosocial cooperation:</strong> quantitative research on
-        idealism and laughter contagion as possible agents of prosocial
-        cooperation, supervised by Roza Kamiloglu.
-      </li>
-      <li>
-        <strong>Digital communication:</strong> Research Master's thesis on
-        cooperation and interdependence during joint decision-making, supervised
-        by Daniel Balliet.
-      </li>
-      <li>
-        <strong>Micro-phenomenology:</strong> qualitative research on emotional
-        perceptions after visits to archaeological sites, using
-        micro-phenomenological interviews and analysis.
-      </li>
-    </ul>
+    <p>
+      Maria's research experience spans quantitative, experimental, and
+      qualitative work, with projects exploring idealism and laughter contagion
+      as possible drivers of prosocial cooperation, the effects of digital
+      communication on cooperation and interdependence during joint
+      decision-making, and emotional perceptions after visits to archaeological
+      sites through micro-phenomenological interviews and analysis.
+    </p>
   </article>
 
   <article>
