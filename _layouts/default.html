@@ -25,13 +25,10 @@
         </nav>
       </div>
       <div class="section-bar">
-        <a href="{{ '/blog/' | relative_url }}">Anxiety</a>
-        <a href="{{ '/blog/' | relative_url }}">Behavior</a>
-        <a href="{{ '/blog/' | relative_url }}">Cognition</a>
-        <a href="{{ '/blog/' | relative_url }}">Mental Health</a>
-        <a href="{{ '/blog/' | relative_url }}">Mental Health at Work</a>
-        <a href="{{ '/blog/' | relative_url }}">Neuroscience</a>
-        <a href="{{ '/blog/' | relative_url }}">Stress</a>
+        {% assign header_topics = site.data.topics | where_exp: "topic", "topic.title == 'Anxiety' or topic.title == 'Behavior' or topic.title == 'Cognition' or topic.title == 'Mental Health' or topic.title == 'Mental Health at Work' or topic.title == 'Neuroscience' or topic.title == 'Stress'" %}
+        {% for topic in header_topics %}
+          <a href="{{ '/topics/' | append: topic.slug | append: '/' | relative_url }}">{{ topic.title }}</a>
+        {% endfor %}
       </div>
     </header>
 

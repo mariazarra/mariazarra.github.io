@@ -90,3 +90,10 @@ excerpt: Write one clear sentence that summarizes the post for the blog page.
 The most useful fields to change each time are `title`, `date`, `topic`,
 `excerpt`, and the article body. If you do not have a custom image yet, leave
 the existing image path in place and the site will keep its magazine layout.
+
+Topic pages are generated from the `topic` field. To make a post appear on a
+topic page, use the exact topic name, for example:
+
+```yaml
+topic: Mental Health at Work
+```

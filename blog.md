@@ -14,24 +14,9 @@ permalink: /blog/
 <section class="topic-filter" aria-labelledby="topic-filter-title">
   <h2 id="topic-filter-title">Explore Topics</h2>
   <div class="topic-links">
-    <a href="{{ '/blog/' | relative_url }}">Anxiety</a>
-    <a href="{{ '/blog/' | relative_url }}">Behavior</a>
-    <a href="{{ '/blog/' | relative_url }}">Cognition</a>
-    <a href="{{ '/blog/' | relative_url }}">Consciousness</a>
-    <a href="{{ '/blog/' | relative_url }}">Creativity</a>
-    <a href="{{ '/blog/' | relative_url }}">Intelligence</a>
-    <a href="{{ '/blog/' | relative_url }}">Memory</a>
-    <a href="{{ '/blog/' | relative_url }}">Mental Health</a>
-    <a href="{{ '/blog/' | relative_url }}">Mental Health at Work</a>
-    <a href="{{ '/blog/' | relative_url }}">Mental Illness</a>
-    <a href="{{ '/blog/' | relative_url }}">Mindfulness</a>
-    <a href="{{ '/blog/' | relative_url }}">Neurology</a>
-    <a href="{{ '/blog/' | relative_url }}">Neuroscience</a>
-    <a href="{{ '/blog/' | relative_url }}">PTSD</a>
-    <a href="{{ '/blog/' | relative_url }}">Psychology</a>
-    <a href="{{ '/blog/' | relative_url }}">Sexuality</a>
-    <a href="{{ '/blog/' | relative_url }}">Sleep</a>
-    <a href="{{ '/blog/' | relative_url }}">Stress</a>
+    {% for topic in site.data.topics %}
+      <a href="{{ '/topics/' | append: topic.slug | append: '/' | relative_url }}">{{ topic.title }}</a>
+    {% endfor %}
   </div>
 </section>
 
