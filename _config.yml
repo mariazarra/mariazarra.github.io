@@ -4,6 +4,7 @@ url: "https://mariazarra.github.io"
 baseurl: ""
 lang: en
 author: Maria Zarra
+default_image: /assets/img/tiny-observations-editorial.png
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
 future: true

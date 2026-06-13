@@ -9,13 +9,28 @@
   </head>
   <body>
     <header class="site-header">
+      <div class="utility-bar">
+        <span>Maria Zarra</span>
+        <span>Psychology writing for everyday life</span>
+      </div>
       <div class="header-inner">
-        <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <a class="brand" href="{{ '/' | relative_url }}">
+          <span class="brand-mark">MZ</span>
+          <span class="brand-name">{{ site.title }}</span>
+        </a>
         <nav aria-label="Main navigation">
           <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
-          <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog/' %}aria-current="page"{% endif %}>Blog</a>
+          <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog/' %}aria-current="page"{% endif %}>Mind &amp; Behavior</a>
           <a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about/' %}aria-current="page"{% endif %}>About</a>
         </nav>
+      </div>
+      <div class="section-bar">
+        <a href="{{ '/blog/' | relative_url }}">Anxiety</a>
+        <a href="{{ '/blog/' | relative_url }}">Behavior</a>
+        <a href="{{ '/blog/' | relative_url }}">Cognition</a>
+        <a href="{{ '/blog/' | relative_url }}">Mental Health</a>
+        <a href="{{ '/blog/' | relative_url }}">Neuroscience</a>
+        <a href="{{ '/blog/' | relative_url }}">Stress</a>
       </div>
     </header>
 
