@@ -15,6 +15,15 @@ description: Evidence-based psychology, made readable.
   <a class="text-link" href="{{ '/blog/' | relative_url }}">Read Mind &amp; Behavior</a>
 </section>
 
+<section class="topic-filter" aria-labelledby="home-topic-filter-title">
+  <h2 id="home-topic-filter-title">Explore Topics</h2>
+  <div class="topic-links">
+    {% for topic in site.data.topics %}
+      <a href="{{ '/topics/' | append: topic.slug | append: '/' | relative_url }}">{{ topic.title }}</a>
+    {% endfor %}
+  </div>
+</section>
+
 <section class="latest-feed" aria-labelledby="latest-posts">
   <h2 id="latest-posts">Latest</h2>
   {% for post in site.posts limit:3 %}
