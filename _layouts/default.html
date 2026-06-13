@@ -25,9 +25,10 @@
         </nav>
       </div>
       <div class="section-bar">
-        {% assign header_topics = site.data.topics | where_exp: "topic", "topic.title == 'Anxiety' or topic.title == 'Behavior' or topic.title == 'Cognition' or topic.title == 'Mental Health' or topic.title == 'Mental Health at Work' or topic.title == 'Neuroscience' or topic.title == 'Stress'" %}
-        {% for topic in header_topics %}
-          <a href="{{ '/topics/' | append: topic.slug | append: '/' | relative_url }}">{{ topic.title }}</a>
+        {% for topic in site.data.topics %}
+          {% if topic.featured %}
+            <a href="{{ '/topics/' | append: topic.slug | append: '/' | relative_url }}">{{ topic.title }}</a>
+          {% endif %}
         {% endfor %}
       </div>
     </header>
@@ -38,7 +39,7 @@
 
     <footer class="site-footer">
       <div class="footer-callout">
-        <p class="footer-kicker">Psychology writing by {{ site.author }}</p>
+        <p class="footer-kicker">Evidence-based psychology</p>
         <p>Essays on mind, behavior, emotional life, and the everyday patterns that shape how people relate to themselves and others.</p>
       </div>
       <div class="footer-links" aria-label="Footer navigation">

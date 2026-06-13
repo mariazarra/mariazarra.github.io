@@ -5,7 +5,7 @@ description: Evidence-based psychology, made readable.
 ---
 
 <section class="home-hero">
-  <p class="kicker">Maria Zarra · Psychology</p>
+  <p class="kicker">Evidence-based psychology</p>
   <h1>Mind in Review</h1>
   <p>
     Evidence-based psychology, made readable. A blog where scientific

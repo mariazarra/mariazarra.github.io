@@ -1,9 +1,12 @@
 - title: Anxiety
   slug: anxiety
+  featured: true
 - title: Behavior
   slug: behavior
+  featured: true
 - title: Cognition
   slug: cognition
+  featured: true
 - title: Consciousness
   slug: consciousness
 - title: Intelligence
@@ -12,8 +15,10 @@
   slug: memory
 - title: Mental Health
   slug: mental-health
+  featured: true
 - title: Mental Health at Work
   slug: mental-health-at-work
+  featured: true
 - title: Mental Illness
   slug: mental-illness
 - title: Mindfulness
@@ -22,6 +27,7 @@
   slug: neurology
 - title: Neuroscience
   slug: neuroscience
+  featured: true
 - title: PTSD
   slug: ptsd
 - title: Psychology
@@ -32,3 +38,4 @@
   slug: sleep
 - title: Stress
   slug: stress
+  featured: true
