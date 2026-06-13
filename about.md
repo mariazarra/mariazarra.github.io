@@ -34,6 +34,24 @@ permalink: /about/
       approaches, developing a flexible research profile that connects data,
       theory, and careful observation.
     </p>
+
+    <div class="academic-training" aria-label="Academic training">
+      <div>
+        <span>Research Master's</span>
+        <strong>Social Psychology</strong>
+        <p>Vrije Universiteit Amsterdam</p>
+      </div>
+      <div>
+        <span>Bachelor's</span>
+        <strong>Psychology</strong>
+        <p>Vrije Universiteit Amsterdam</p>
+      </div>
+      <div>
+        <span>Bachelor's</span>
+        <strong>Education</strong>
+        <p>University of Thessaly</p>
+      </div>
+    </div>
   </div>
 
   <aside class="about-snapshot" aria-label="Academic snapshot">
@@ -52,20 +70,23 @@ permalink: /about/
   <article>
     <p class="kicker">Research Experience</p>
     <h2>Projects</h2>
-    <p>
-      Maria's research experience includes a quantitative project on idealism and
-      laughter contagion as possible agents of prosocial cooperation, supervised
-      by Roza Kamiloglu. She is also completing a Research Master's thesis on the
-      effects of digital communication on cooperation and interdependence during
-      joint decision-making, supervised by Daniel Balliet.
-    </p>
-    <p>
-      Alongside this quantitative and experimental work, she has contributed to
-      an external qualitative research project on emotional perceptions after
-      visits to archaeological sites, using micro-phenomenological interviews
-      and analysis to examine experience in both diachronic and synchronic
-      structure.
-    </p>
+    <ul class="research-list">
+      <li>
+        <strong>Prosocial cooperation:</strong> quantitative research on
+        idealism and laughter contagion as possible agents of prosocial
+        cooperation, supervised by Roza Kamiloglu.
+      </li>
+      <li>
+        <strong>Digital communication:</strong> Research Master's thesis on
+        cooperation and interdependence during joint decision-making, supervised
+        by Daniel Balliet.
+      </li>
+      <li>
+        <strong>Micro-phenomenology:</strong> qualitative research on emotional
+        perceptions after visits to archaeological sites, using
+        micro-phenomenological interviews and analysis.
+      </li>
+    </ul>
   </article>
 
   <article>
@@ -82,6 +103,14 @@ permalink: /about/
       psychological theory into clear arguments, and communicating findings in a
       way that is precise without becoming inaccessible.
     </p>
+    <div class="skill-tags" aria-label="Research tools">
+      <span>SPSS</span>
+      <span>JASP</span>
+      <span>Jamovi</span>
+      <span>Qualtrics</span>
+      <span>Prolific</span>
+      <span>Academic writing</span>
+    </div>
   </article>
 
   <article>
