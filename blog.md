@@ -7,8 +7,8 @@ permalink: /blog/
 
 <section class="section-heading">
   <p class="kicker">Psychology</p>
-  <h1>Mind &amp; Behavior</h1>
-  <p>Stories and essays on anxiety, cognition, relationships, stress, mental health, and the everyday patterns that shape how people think and feel.</p>
+  <h1>Mind in Review</h1>
+  <p>Evidence-based psychology, made readable. A blog where scientific literature meets clear, thoughtful reviews on how the mind works, why we behave the way we do, and what psychology can teach us about everyday life.</p>
 </section>
 
 <section class="topic-filter" aria-labelledby="topic-filter-title">
